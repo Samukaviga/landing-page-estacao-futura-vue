@@ -20,6 +20,9 @@
 <script lang="ts">
 
 import { defineComponent } from 'vue'
+import { onMounted } from 'vue'
+import { initFlowbite } from 'flowbite'
+
 import NavBar from '../components/NavBar.vue'
 import BannerMain from '@/components/BannerMain.vue';
 import AboutUs from '@/components/AboutUs.vue';
@@ -27,7 +30,10 @@ import Differentials from '@/components/Differentials.vue';
 import More from '@/components/More.vue';
 import Footer from '@/components/Footer.vue';
 
+
 export default defineComponent({
+
+
   components: {
     NavBar,
     BannerMain,
@@ -35,8 +41,20 @@ export default defineComponent({
     Differentials,
     More,
     Footer,
-  }
+  },
+
+  setup() {
+    onMounted(() => {
+      initFlowbite()
+    })
+  },
+
+
 })
+
+
+
+
 
 </script>
 

@@ -38,7 +38,7 @@
                         Sobre 
                     </a>  -->
                 </div>
-                <div class="hidden lg:mt-0 lg:col-span-5 lg:flex self-end">
+                <div class=" lg:mt-0 lg:col-span-5 lg:flex self-end">
                     <img class="w-full h-auto" src="@/assets/images/menino-principal.png"
                         alt="Menino com o uniforme do Estacao futura">
                 </div>
