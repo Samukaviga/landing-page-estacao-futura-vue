@@ -3,7 +3,7 @@
     <!-- Header -->
 
     <section id="home" class="relative isolate overflow-hidden bg-azul-claro pt-30 pt-20 sm:pt-32">
-        <img src="./img/fundo-azul.png" alt=""
+        <img src="@/assets/images/fundo-azul.png" alt=""
             class="absolute inset-0 -z-10 size-full object-cover object-right md:object-center" />
 
 
