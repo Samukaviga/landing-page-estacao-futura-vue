@@ -14,6 +14,8 @@
 
   <Footer />
 
+  <ButtonWtt />
+
 
 </template>
 
@@ -29,6 +31,8 @@ import AboutUs from '@/components/AboutUs.vue';
 import Differentials from '@/components/Differentials.vue';
 import More from '@/components/More.vue';
 import Footer from '@/components/Footer.vue';
+import ButtonWtt from '@/components/ButtonWtt.vue';
+
 
 
 export default defineComponent({
@@ -41,6 +45,7 @@ export default defineComponent({
     Differentials,
     More,
     Footer,
+    ButtonWtt
   },
 
   setup() {
